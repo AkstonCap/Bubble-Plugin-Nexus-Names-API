@@ -1,0 +1,15 @@
+{
+    "categories": {
+        "0": "analytics",
+        "1": "productivity",
+        "2": "technical",
+        "3": "data (things)",
+        "4": "payment"
+    },
+    "description": "This is the nexus.io blockchain names API, which creates, lists or retrieves information about blockchain registers on Nexus called names or namespaces.",
+    "image": "//meta-q.cdn.bubble.io/f1710340956292x514666403606943300/nameless.jpg",
+    "license": "open_source",
+    "link": "https://github.com/Nexusoft/LLL-TAO/blob/merging/docs/API/COMMANDS/NAMES.MD",
+    "name": "Nexus Names API",
+    "plugin_instructions": "See docs in url for reference"
+}

@@ -1,0 +1,134 @@
+{
+    "calls": {
+        "AAC": {
+            "initialized": true,
+            "method": "get",
+            "name": "Create/Namespace",
+            "publish_as": "action",
+            "rank": 0,
+            "ret_value": "api.1710340811954x421568564364574700.plugin_api.AAC",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAC\":{\"caption\":\"Create/Namespace\",\"fields\":{\"_p_result.success\":{\"ret_value\":\"boolean\",\"caption\":\"success\",\"sample_value\":true,\"path\":[\"result\",\"success\"]},\"_p_result.address\":{\"ret_value\":\"text\",\"caption\":\"address\",\"sample_value\":\"8Kj628y127G7xxHqzGyq8oNn1yeQk88aHcUojnquHTeSFE95EXe\",\"path\":[\"result\",\"address\"]},\"_p_result.txid\":{\"ret_value\":\"text\",\"caption\":\"txid\",\"sample_value\":\"016d0fbd8441e8d569d80bcc1ddb030dabc0970cfb8524c5d2ad5f694ccf0a130a27caaa84378a704cc6fc03111ce4eeb186844798c28fd196b1ee8e67d705a7\",\"path\":[\"result\",\"txid\"]},\"_p_info.method\":{\"ret_value\":\"text\",\"caption\":\"info method\",\"sample_value\":\"names/create\",\"path\":[\"info\",\"method\"]},\"_p_info.status\":{\"ret_value\":\"text\",\"caption\":\"info status\",\"sample_value\":\"active\",\"path\":[\"info\",\"status\"]},\"_p_info.address\":{\"ret_value\":\"text\",\"caption\":\"info address\",\"sample_value\":\"54.70.92.143:53162\",\"path\":[\"info\",\"address\"]},\"_p_info.latency\":{\"ret_value\":\"text\",\"caption\":\"info latency\",\"sample_value\":\"5951.557763 ms\",\"path\":[\"info\",\"latency\"]}}}}",
+            "url": "[web server:port]names/create/namespace?session=[session]&pin=[pin]&namespace=[namespace]",
+            "url_params": {
+                "AAD": {
+                    "key": "web server:port",
+                    "private": true,
+                    "value": "http://private.nexus.io:7080/"
+                },
+                "AAE": {
+                    "key": "session",
+                    "private": true,
+                    "value": ""
+                },
+                "AAF": {
+                    "key": "pin",
+                    "private": true,
+                    "value": ""
+                },
+                "AAI": {
+                    "key": "namespace",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "AAJ": {
+            "initialized": true,
+            "method": "get",
+            "name": "List/Namespace",
+            "publish_as": "data",
+            "rank": 1,
+            "ret_value": "api.1710340811954x421568564364574700.plugin_api.AAJ",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAJ\":{\"caption\":\"List/Namespace\",\"fields\":{\"_p_result\":{\"ret_value\":\"list.api.1710340811954x421568564364574700.plugin_api.AAJ.result\",\"caption\":\"result\",\"path\":[\"result\"]},\"_p_info.method\":{\"ret_value\":\"text\",\"caption\":\"info method\",\"sample_value\":\"names/list\",\"path\":[\"info\",\"method\"]},\"_p_info.status\":{\"ret_value\":\"text\",\"caption\":\"info status\",\"sample_value\":\"active\",\"path\":[\"info\",\"status\"]},\"_p_info.address\":{\"ret_value\":\"text\",\"caption\":\"info address\",\"sample_value\":\"34.211.115.117:44356\",\"path\":[\"info\",\"address\"]},\"_p_info.latency\":{\"ret_value\":\"text\",\"caption\":\"info latency\",\"sample_value\":\"0.310262 ms\",\"path\":[\"info\",\"latency\"]}}},\"plugin_api.AAJ.result\":{\"caption\":\"List/Namespace result\",\"fields\":{\"_p_owner\":{\"ret_value\":\"text\",\"caption\":\"owner\",\"sample_value\":\"b7cbef6130a99ce1f48515e72e39cb22a5fb451b8d8aec8e7f9de7db5a852bdc\",\"path\":[\"owner\"]},\"_p_version\":{\"ret_value\":\"number\",\"caption\":\"version\",\"sample_value\":1,\"path\":[\"version\"]},\"_p_created\":{\"ret_value\":\"number\",\"caption\":\"created\",\"sample_value\":1691414277,\"path\":[\"created\"]},\"_p_modified\":{\"ret_value\":\"number\",\"caption\":\"modified\",\"sample_value\":1691414277,\"path\":[\"modified\"]},\"_p_type\":{\"ret_value\":\"text\",\"caption\":\"type\",\"sample_value\":\"NAMESPACE\",\"path\":[\"type\"]},\"_p_namespace\":{\"ret_value\":\"text\",\"caption\":\"namespace\",\"sample_value\":\"akston.capital\",\"path\":[\"namespace\"]},\"_p_address\":{\"ret_value\":\"text\",\"caption\":\"address\",\"sample_value\":\"8Kj628y127G7xxHqzGyq8oNn1yeQk88aHcUojnquHTeSFE95EXe\",\"path\":[\"address\"]}}}}",
+            "url": "[web server:port]names/list/namespace?session=[session]",
+            "url_params": {
+                "AAK": {
+                    "key": "web server:port",
+                    "private": true,
+                    "value": "http://private.nexus.io:7080/"
+                },
+                "AAL": {
+                    "key": "session",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "AAM": {
+            "initialized": true,
+            "method": "get",
+            "name": "Create/Name",
+            "publish_as": "action",
+            "rank": 2,
+            "ret_value": "api.1710340811954x421568564364574700.plugin_api.AAM",
+            "should_reinitialize": false,
+            "types": "{\"plugin_api.AAM\":{\"caption\":\"Create/Name\",\"fields\":{\"_p_result.success\":{\"ret_value\":\"boolean\",\"caption\":\"success\",\"sample_value\":true,\"path\":[\"result\",\"success\"]},\"_p_result.address\":{\"ret_value\":\"text\",\"caption\":\"address\",\"sample_value\":\"8HVChoryF5JG5TnnZBK69gRuWV8tmugf3mNm3vtNwiQhrLaQHDx\",\"path\":[\"result\",\"address\"]},\"_p_result.txid\":{\"ret_value\":\"text\",\"caption\":\"txid\",\"sample_value\":\"01550054fdeafc941ec1d91299848a52c7a332dd0087aa6a01ea67e41bfb15a8e3a6b90c44e454d11f6d5a86968bbd7afb08e3587f529e4bd5476abcae98f93f\",\"path\":[\"result\",\"txid\"]},\"_p_info.method\":{\"ret_value\":\"text\",\"caption\":\"info method\",\"sample_value\":\"names/create\",\"path\":[\"info\",\"method\"]},\"_p_info.status\":{\"ret_value\":\"text\",\"caption\":\"info status\",\"sample_value\":\"active\",\"path\":[\"info\",\"status\"]},\"_p_info.address\":{\"ret_value\":\"text\",\"caption\":\"info address\",\"sample_value\":\"35.89.48.154:51076\",\"path\":[\"info\",\"address\"]},\"_p_info.latency\":{\"ret_value\":\"text\",\"caption\":\"info latency\",\"sample_value\":\"5988.087311 ms\",\"path\":[\"info\",\"latency\"]}}}}",
+            "url": "[web server:port]names/create/name?session=[session]&pin=[pin]&name=[name]&namespace=[namespace]&global=[global]&register=[address]",
+            "url_params": {
+                "AAN": {
+                    "key": "web server:port",
+                    "private": true,
+                    "value": "http://private.nexus.io:7080/"
+                },
+                "AAO": {
+                    "key": "session",
+                    "private": true,
+                    "value": "c564c3c79c0c9da8cf04b6c5752a8dd18c307c54ccbd8f3fe62b0c8985ee5f12"
+                },
+                "AAP": {
+                    "key": "pin",
+                    "private": true,
+                    "value": "1234"
+                },
+                "AAQ": {
+                    "allow_blank": true,
+                    "key": "namespace",
+                    "private": true,
+                    "value": "akston.capital"
+                },
+                "AAR": {
+                    "key": "name",
+                    "private": true,
+                    "value": "test3"
+                },
+                "AAS": {
+                    "allow_blank": true,
+                    "key": "global",
+                    "private": true,
+                    "value": ""
+                },
+                "AAT": {
+                    "key": "address",
+                    "private": true,
+                    "value": "882Ku5aJGMcupXnuNu5gpQET29e4nsACwks8EjJ2EYwuTzTbWSu"
+                }
+            }
+        },
+        "AAU": {
+            "initialized": true,
+            "method": "get",
+            "name": "List/Name",
+            "publish_as": "data",
+            "rank": 3,
+            "ret_value": "api.1710340811954x421568564364574700.plugin_api.AAU",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAU\":{\"caption\":\"List/Name\",\"fields\":{\"_p_result\":{\"ret_value\":\"list.api.1710340811954x421568564364574700.plugin_api.AAU.result\",\"caption\":\"result\",\"path\":[\"result\"]},\"_p_info.method\":{\"ret_value\":\"text\",\"caption\":\"info method\",\"sample_value\":\"names/list\",\"path\":[\"info\",\"method\"]},\"_p_info.status\":{\"ret_value\":\"text\",\"caption\":\"info status\",\"sample_value\":\"active\",\"path\":[\"info\",\"status\"]},\"_p_info.address\":{\"ret_value\":\"text\",\"caption\":\"info address\",\"sample_value\":\"34.216.227.240:57252\",\"path\":[\"info\",\"address\"]},\"_p_info.latency\":{\"ret_value\":\"text\",\"caption\":\"info latency\",\"sample_value\":\"2.061452 ms\",\"path\":[\"info\",\"latency\"]}}},\"plugin_api.AAU.result\":{\"caption\":\"List/Name result\",\"fields\":{\"_p_owner\":{\"ret_value\":\"text\",\"caption\":\"owner\",\"sample_value\":\"b7cbef6130a99ce1f48515e72e39cb22a5fb451b8d8aec8e7f9de7db5a852bdc\",\"path\":[\"owner\"]},\"_p_version\":{\"ret_value\":\"number\",\"caption\":\"version\",\"sample_value\":1,\"path\":[\"version\"]},\"_p_created\":{\"ret_value\":\"number\",\"caption\":\"created\",\"sample_value\":1693747560,\"path\":[\"created\"]},\"_p_modified\":{\"ret_value\":\"number\",\"caption\":\"modified\",\"sample_value\":1693747560,\"path\":[\"modified\"]},\"_p_type\":{\"ret_value\":\"text\",\"caption\":\"type\",\"sample_value\":\"NAME\",\"path\":[\"type\"]},\"_p_register\":{\"ret_value\":\"text\",\"caption\":\"register\",\"sample_value\":\"88hLidGPXa9P5jr5q18uTUKuMFQGcBeiJj6pBX1FStqxMzP9Usv\",\"path\":[\"register\"]},\"_p_address\":{\"ret_value\":\"text\",\"caption\":\"address\",\"sample_value\":\"8HdfnBA92GYnQsZqGKgJDXFr9jv3V12oJmDyevtesCR9dzGjwho\",\"path\":[\"address\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"old1-distordia_profile\",\"path\":[\"name\"]},\"_p_local\":{\"ret_value\":\"boolean\",\"caption\":\"local\",\"sample_value\":true,\"path\":[\"local\"]},\"_p_mine\":{\"ret_value\":\"boolean\",\"caption\":\"mine\",\"sample_value\":false,\"path\":[\"mine\"]},\"_p_namespace\":{\"ret_value\":\"text\",\"caption\":\"namespace\",\"sample_value\":\"akston.capital\",\"path\":[\"namespace\"]},\"_p_global\":{\"ret_value\":\"boolean\",\"caption\":\"global\",\"sample_value\":false,\"path\":[\"global\"]}}}}",
+            "url": "[web server:port]names/list/name?session=[session]",
+            "url_params": {
+                "AAV": {
+                    "key": "web server:port",
+                    "private": true,
+                    "value": "http://private.nexus.io:7080/"
+                },
+                "AAW": {
+                    "key": "session",
+                    "private": true,
+                    "value": "a2f2a318ec704d30e36d38db53412e2e5216e637d626d86fefb08314536b1bbc"
+                }
+            }
+        }
+    },
+    "human": "Names"
+}
